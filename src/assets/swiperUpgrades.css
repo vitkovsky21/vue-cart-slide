@@ -1,0 +1,143 @@
+.swiper-pagination-fraction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  bottom: 26.9rem;
+  left: 25.9rem;
+
+  width: 56px;
+  height: 56px;
+  background: #ffffff;
+  box-shadow: 0px 5px 26px rgba(0, 0, 0, 0.1);
+  border-radius: 70%;
+}
+
+.swiper-pagination-fraction span {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.swiper-button-prev {
+  box-sizing: border-box;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  transform: scale(var(--ggs, 1));
+  border-radius: 22px;
+  color: black;
+}
+
+.swiper-button-prev::after,
+.swiper-button-prev::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 11px;
+}
+
+.swiper-button-prev::after {
+  width: 6px;
+  height: 6px;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  transform: rotate(45deg);
+  bottom: 15px;
+}
+
+.swiper-button-prev::before {
+  width: 15px;
+  height: 1.5px;
+  bottom: 17px;
+  background: currentColor;
+}
+
+.swiper-button-next {
+  box-sizing: border-box;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  transform: scale(var(--ggs, 1));
+  border-radius: 22px;
+  color: black;
+}
+
+.swiper-button-next::after,
+.swiper-button-next::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: 11px;
+}
+
+.swiper-button-next::after {
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  bottom: 15px;
+}
+
+.swiper-button-next::before {
+  width: 15px;
+  height: 1.5px;
+  bottom: 17px;
+  background: currentColor;
+}
+
+.swiper-slide {
+  pointer-events: none;
+}
+
+.swiper-wrapper {
+  z-index: unset;
+
+  pointer-events: none;
+}
+
+.main__content-swiper .swiper-button-prev,
+.main__content-swiper .swiper-button-next,
+.main__content-swiper .swiper-pagination {
+  pointer-events: auto;
+}
+
+.content-swiper_separate .swiper-button-prev,
+.content-swiper_separate .swiper-button-next {
+  top: 20rem;
+}
+
+.content-swiper_separate .swiper-button-prev,
+.content-swiper_separate .swiper-button-next,
+.content-swiper_separate .swiper-pagination {
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.content-swiper_separate .swiper-wrapper .main__content-swiper-text {
+  display: block;
+  pointer-events: none;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+
+.parallax-bg {
+  background-image: url(/src/assets/clouds-2.png);
+  z-index: 1;
+  position: absolute;
+  width: 1440px;
+  height: 700px;
+  left: -17.2rem;
+  bottom: -5.5rem;
+  pointer-events: none;
+}
