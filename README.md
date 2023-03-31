@@ -1,3 +1,7 @@
+# deploy
+
+https://master--zingy-twilight-593636.netlify.app/
+
 # vue-cart-slide
 
 This template should help get you started developing with Vue 3 in Vite.
