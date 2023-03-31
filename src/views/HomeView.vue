@@ -57,6 +57,7 @@
 <script lang="ts">
 import { ref } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
+
 import NavbarComp from '@/components/NavbarComp.vue';
 
 import racer from '@/assets/racer.png'
@@ -220,7 +221,7 @@ export default {
     pointer-events: none;
     z-index: 0;
 
-    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 61% 76%, 35% 77%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 76% 0, 100% 0, 100% 70%, 79% 72%, 50% 60%, 22% 70%, 0% 70%, 0 0, 28% 0);
 }
 
 .main__content-swiper-text {
