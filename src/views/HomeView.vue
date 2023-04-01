@@ -6,7 +6,6 @@
         <div class="main">
             <img src="@/assets/kinopoisk.png" alt="" class="main__title">
             <div class="main__slogan">Они должны что-то знать</div>
-            <!-- <div class="main__clouds"></div> -->
             <div class="main__content">
 
                 <swiper ref="swiper" :pagination="{
