@@ -129,6 +129,7 @@
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0;
+  pointer-events: none;
 }
 
 .parallax-bg {
@@ -137,7 +138,7 @@
   position: absolute;
   width: 1440px;
   height: 700px;
-  left: -17.2rem;
-  bottom: -5.5rem;
+  left: -17.8rem;
+  bottom: -5.9rem;
   pointer-events: none;
 }
